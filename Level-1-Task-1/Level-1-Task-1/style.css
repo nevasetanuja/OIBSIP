@@ -1,0 +1,137 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+  background-color: #3b2f2f;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #c19a6b;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("images/antique-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: white;
+}
+
+.hero-text {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text h2 {
+  font-size: 52px;
+  letter-spacing: 2px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 12px;
+  max-width: 500px;
+}
+
+.hero-text button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #c19a6b;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #a57c52;
+  transition: 0.3s;
+}
+
+/* ================= FEATURES SECTION ================= */
+.features {
+  background-color: #f4f1ec;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 220px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+/* ================= CTA SECTION ================= */
+.cta {
+  background-color: #3b2f2f;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.cta h2 {
+  font-size: 32px;
+}
+
+.cta button {
+  margin-top: 20px;
+  padding: 12px 35px;
+  background-color: #c17e6b;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta button:hover {
+  background-color: #a57c52;
+  transition: 0.3s;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
